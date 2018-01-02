@@ -3,7 +3,6 @@
 The script will hide the +Quiz/Test button from all courses except those specifically listed in the regular expression on the second line. In this case below courses with an ID of 17, 26, and 28. To add more courses just include the course ID separated by a "|" (vertical bar).
 
 ```
-
 $( document ).ready(function() {
 	
 	$('.new_quiz_lti_wrapper').hide();
